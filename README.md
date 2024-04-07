@@ -52,13 +52,13 @@
 
 <br clear="both">
 
-<div align="centre">
   ## 🏆 GitHub Trophies
   ![](https://github-profile-trophy.vercel.app/?username=KaloyanG17&theme=monokai&no-frame=false&no-bg=false&margin-w=4)
 
   ### ✍️ Random Dev Quote
   ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
+<div align="centre">
   <img src="https://profile-counter.glitch.me/KaloyanG17/count.svg?"  />
 </div>
 
