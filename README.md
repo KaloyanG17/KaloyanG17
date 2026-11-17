@@ -88,7 +88,7 @@ Dissertation: [Simulated Motorsport](https://github.com/KaloyanG17/Simulated-Mot
 <td width="50%" valign="top">
 <a href="https://github.com/KaloyanG17/ipad-dashboard"><img src="https://raw.githubusercontent.com/KaloyanG17/ipad-dashboard/main/docs/cover.jpg" alt="iPad Dashboard" width="100%"></a>
 <br><b>iPad Dashboard</b><br>
-<sub>Smart-home wall panel for an iPad stuck on iOS 12: Govee lights, Spotify, weather and uptime in plain ES5.</sub><br>
+<sub>Smart-home wall panel for an iPad stuck on iOS 12: lights that pulse to Spotify, 24 moods and usage stats, in one plain-ES5 file with the keys kept on Vercel.</sub><br>
 <a href="https://kaloyan-ipad.vercel.app/?demo">Live</a> · <a href="https://github.com/KaloyanG17/ipad-dashboard">Code</a>
 </td>
 </tr>
