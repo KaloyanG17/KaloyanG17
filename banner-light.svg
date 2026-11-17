@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Kaloyan Gaydarov, full-stack web developer. Web apps that control real hardware.">
+  <style>
+    .name { font: 700 54px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1f2328; letter-spacing: -1px; }
+    .role { font: 500 24px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #59636e; }
+    .hl   { font: 600 24px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1a7f37; }
+    .mono { font: 500 14px ui-monospace, 'SFMono-Regular', Consolas, monospace; fill: #59636e; }
+    .label { font: 600 13px ui-monospace, 'SFMono-Regular', Consolas, monospace; fill: #1a7f37; }
+    .box { fill: #f6f8fa; stroke: #d0d7de; stroke-width: 1.5; }
+    .wire { stroke: #d0d7de; stroke-width: 2; stroke-dasharray: 4 6; fill: none; }
+    .p { animation: go 2.4s linear infinite; fill: #1a7f37; }
+    .p2 { animation-delay: 1.2s; }
+    .p3 { animation-name: back; animation-delay: .6s; fill: #0969da; }
+    @keyframes go   { 0% { transform: translateX(0); opacity: 0; } 10%, 90% { opacity: 1; } 100% { transform: translateX(222px); opacity: 0; } }
+    @keyframes back { 0% { transform: translateX(222px); opacity: 0; } 10%, 90% { opacity: 1; } 100% { transform: translateX(0); opacity: 0; } }
+    .arm { transform-box: view-box; transform-origin: 1056px 206px; animation: lift 4.8s ease-in-out infinite; }
+    @keyframes lift { 0%, 30% { transform: rotate(0deg); } 45%, 75% { transform: rotate(-75deg); } 90%, 100% { transform: rotate(0deg); } }
+    .led { animation: led 4.8s steps(1) infinite; }
+    @keyframes led { 0% { fill: #cf222e; } 31% { fill: #1a7f37; } 86% { fill: #cf222e; } }
+    .dot { animation: pulse 2s ease-in-out infinite; fill: #1a7f37; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .3; } }
+    @media (prefers-reduced-motion: reduce) { .p, .arm, .led, .dot { animation: none; } }
+  </style>
+  <rect width="1200" height="320" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+  <g stroke="#f3f4f6" stroke-width="1">
+    <path d="M0 64H1200M0 128H1200M0 192H1200M0 256H1200"/>
+    <path d="M100 0V320M200 0V320M300 0V320M400 0V320M500 0V320M600 0V320M700 0V320M800 0V320M900 0V320M1000 0V320M1100 0V320"/>
+  </g>
+
+  <circle class="dot" cx="66" cy="84" r="6"/>
+  <text class="mono" x="82" y="89">open to web developer roles · Varna, BG · remote / hybrid</text>
+  <text class="name" x="60" y="152">Kaloyan Gaydarov</text>
+  <text class="role" x="60" y="192">Full-stack web developer</text>
+  <text class="hl" x="60" y="226">Web apps that control real hardware.</text>
+  <text class="mono" x="60" y="268">TypeScript · React · Next.js · PHP · MQTT · WebSockets</text>
+
+  <rect class="box" x="640" y="118" width="150" height="104" rx="8"/>
+  <path d="M640 140H790" stroke="#d0d7de" stroke-width="1.5"/>
+  <circle cx="654" cy="129" r="4" fill="#cf222e"/>
+  <circle cx="668" cy="129" r="4" fill="#9a6700"/>
+  <circle cx="682" cy="129" r="4" fill="#1a7f37"/>
+  <rect x="656" y="154" width="70" height="8" rx="4" fill="#d0d7de"/>
+  <rect x="656" y="170" width="118" height="8" rx="4" fill="#eaeef2"/>
+  <rect x="656" y="186" width="96" height="8" rx="4" fill="#eaeef2"/>
+  <rect x="656" y="202" width="52" height="10" rx="5" fill="#1f883d"/>
+  <text class="label" x="682" y="246">web app</text>
+
+  <path class="wire" d="M798 170H1030"/>
+  <text class="label" x="876" y="156">MQTT / WS</text>
+  <circle class="p" cx="802" cy="170" r="5"/>
+  <circle class="p p2" cx="802" cy="170" r="5"/>
+  <circle class="p p3" cx="802" cy="170" r="5"/>
+
+  <path d="M1020 232H1180" stroke="#d0d7de" stroke-width="2"/>
+  <rect class="box" x="1036" y="140" width="40" height="92" rx="6"/>
+  <circle class="led" cx="1056" cy="160" r="6" fill="#cf222e"/>
+  <g class="arm">
+    <rect x="1056" y="200" width="112" height="12" rx="6" fill="#59636e"/>
+    <rect x="1080" y="200" width="14" height="12" fill="#cf222e"/>
+    <rect x="1108" y="200" width="14" height="12" fill="#cf222e"/>
+    <rect x="1136" y="200" width="14" height="12" fill="#cf222e"/>
+  </g>
+  <circle cx="1056" cy="206" r="8" fill="#f6f8fa" stroke="#59636e" stroke-width="2"/>
+  <text class="label" x="1040" y="256">gate</text>
+</svg>
