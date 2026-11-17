@@ -49,62 +49,64 @@ Dissertation: [Simulated Motorsport](https://github.com/KaloyanG17/Simulated-Mot
 
 ## 🛠️ Projects
 
-### 🛍️ Kokolina
-**Online clothing store in Bulgarian and English, with real payments.**
-
-[![Live demo](https://img.shields.io/badge/Live%20demo-2ea44f?style=for-the-badge&logo=vercel&logoColor=white)](https://kokolina.vercel.app)
-[![Source code](https://img.shields.io/badge/Source%20code-24292f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KaloyanG17/kokolina)
-
-- Stripe checkout with signed, idempotent webhooks, so a retried payment event never creates a duplicate order
-- Stock tracked per size, refunds, and an admin dashboard
-- Product-photo background removal that runs in the browser using an ML model
-
-![Next.js](https://img.shields.io/badge/Next.js%2015-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
-![Resend](https://img.shields.io/badge/Resend-000000?style=flat-square&logo=resend&logoColor=white)
-
-### 📋 Shiplog
-**Project board that keeps itself up to date from GitHub.**
-
-[![Live demo](https://img.shields.io/badge/Live%20demo-2ea44f?style=for-the-badge&logo=vercel&logoColor=white)](https://shiplog-silk.vercel.app)
-[![Source code](https://img.shields.io/badge/Source%20code-24292f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KaloyanG17/shiplog)
-
-- GitHub App with HMAC-verified webhooks: issues become cards, and pull requests move them across the board
-- An AI writes a daily dev journal from the day's activity
-
-![Next.js](https://img.shields.io/badge/Next.js%2016-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-
-### 🏎️ Simulated Motorsport · BSc dissertation
-**A 3D race where 20 AI cars drive themselves.**
-
-[![Live demo](https://img.shields.io/badge/Live%20demo-2ea44f?style=for-the-badge&logo=vercel&logoColor=white)](https://simulated-motorsport.vercel.app)
-[![Source code](https://img.shields.io/badge/Source%20code-24292f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KaloyanG17/Simulated-Motorsport)
-
-- The cars steer themselves with steering behaviours
-- A neural network makes the pit-stop and tyre decisions
-
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
-![YUKA](https://img.shields.io/badge/YUKA-555555?style=flat-square)
-![Brain.js](https://img.shields.io/badge/Brain.js-F7DF1E?style=flat-square&logoColor=black)
-
-### 🌐 3D Portfolio
-**Interactive 3D personal site.**
-
-[![Live demo](https://img.shields.io/badge/Live%20demo-2ea44f?style=for-the-badge&logo=vercel&logoColor=white)](https://kaloyan.vercel.app)
-[![Source code](https://img.shields.io/badge/Source%20code-24292f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KaloyanG17/3d-website)
-
-- Cut the main 3D model from 16 MB to 1.4 MB so the site loads fast
-- Project list is pulled live from the GitHub API
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![React Three Fiber](https://img.shields.io/badge/React%20Three%20Fiber-000000?style=flat-square&logo=threedotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/KaloyanG17/kokolina"><img src="https://raw.githubusercontent.com/KaloyanG17/kokolina/main/docs/cover.jpg" alt="Kokolina" width="100%"></a>
+<br><b>Kokolina</b><br>
+<sub>Bilingual denim e-shop: Stripe checkout with idempotent webhooks, stock per size, refunds, admin dashboard and in-browser ML background removal.</sub><br>
+<a href="https://kokolina.vercel.app">Live</a> · <a href="https://github.com/KaloyanG17/kokolina">Code</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/KaloyanG17/shiplog"><img src="https://raw.githubusercontent.com/KaloyanG17/shiplog/main/docs/cover.jpg" alt="Shiplog" width="100%"></a>
+<br><b>Shiplog</b><br>
+<sub>Dev board synced both ways with GitHub through a GitHub App and HMAC-verified webhooks, with an AI-written daily journal.</sub><br>
+<a href="https://shiplog-silk.vercel.app">Live</a> · <a href="https://github.com/KaloyanG17/shiplog">Code</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/KaloyanG17/pdf-studio"><img src="https://raw.githubusercontent.com/KaloyanG17/pdf-studio/main/docs/cover.jpg" alt="PDF Studio" width="100%"></a>
+<br><b>PDF Studio</b><br>
+<sub>Edit and translate invoice PDFs (BG ⇄ EN) in their original fonts, with tables still lined up and redacted text really gone.</sub><br>
+<a href="https://pdf-studio-liart-two.vercel.app">Live</a> · <a href="https://github.com/KaloyanG17/pdf-studio">Code</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/KaloyanG17/Simulated-Motorsport"><img src="https://raw.githubusercontent.com/KaloyanG17/Simulated-Motorsport/main/docs/cover.jpg" alt="Simulated Motorsport" width="100%"></a>
+<br><b>Simulated Motorsport</b><br>
+<sub>BSc dissertation: 20 AI cars steer themselves and a neural network decides pit stops and tyres.</sub><br>
+<a href="https://simulated-motorsport.vercel.app">Live</a> · <a href="https://github.com/KaloyanG17/Simulated-Motorsport">Code</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/KaloyanG17/hexbound"><img src="https://raw.githubusercontent.com/KaloyanG17/hexbound/main/docs/cover.jpg" alt="Hexbound" width="100%"></a>
+<br><b>Hexbound</b><br>
+<sub>Auto-battler on one deterministic TypeScript game core: same seed, same fight, in the browser or on a server.</sub><br>
+<a href="https://hexbound-six.vercel.app">Live</a> · <a href="https://github.com/KaloyanG17/hexbound">Code</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/KaloyanG17/ipad-dashboard"><img src="https://raw.githubusercontent.com/KaloyanG17/ipad-dashboard/main/docs/cover.jpg" alt="iPad Dashboard" width="100%"></a>
+<br><b>iPad Dashboard</b><br>
+<sub>Smart-home wall panel for an iPad stuck on iOS 12: Govee lights, Spotify, weather and uptime in plain ES5.</sub><br>
+<a href="https://kaloyan-ipad.vercel.app/?demo">Live</a> · <a href="https://github.com/KaloyanG17/ipad-dashboard">Code</a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/KaloyanG17/iphonePorfolio"><img src="https://raw.githubusercontent.com/KaloyanG17/iphonePorfolio/main/docs/cover.jpg" alt="KG Grand Prix" width="100%"></a>
+<br><b>KG Grand Prix</b><br>
+<sub>A portfolio you play: a 3D phone with a racing game inside that drives through my career.</sub><br>
+<a href="https://iphoneporfolio.vercel.app">Live</a> · <a href="https://github.com/KaloyanG17/iphonePorfolio">Code</a>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/KaloyanG17/3d-website"><img src="https://raw.githubusercontent.com/KaloyanG17/3d-website/main/docs/cover.jpg" alt="3D Portfolio" width="100%"></a>
+<br><b>3D Portfolio</b><br>
+<sub>Interactive 3D site; hero model cut from 16 MB to 1.4 MB, projects loaded live from the GitHub API.</sub><br>
+<a href="https://kaloyan.vercel.app">Live</a> · <a href="https://github.com/KaloyanG17/3d-website">Code</a>
+</td>
+</tr>
+</table>
 
 ## 🧰 Tech
 
